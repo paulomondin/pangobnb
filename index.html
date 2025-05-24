@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PANGO Futuristic Meme</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Audiowide&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #ffcc00, #ff6600);
+      color: #222;
+    }
+    header {
+      background: rgba(0,0,0,0.8);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px #0ff;
+    }
+    header img {
+      width: 250px;
+    }
+    header h1 {
+      font-family: 'Audiowide', sans-serif;
+      color: #00FFFF;
+      text-shadow: 2px 2px 8px #000;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #ffcc00;
+      margin: 0 10px;
+      text-decoration: none;
+      position: relative;
+      font-size: 1.2em;
+    }
+    nav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #0ff;
+      transition: width .3s;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .banner {
+      background: url('pango_banner.png') no-repeat center;
+      background-size: cover;
+      padding: 120px 20px;
+      text-shadow: 3px 3px 10px #000;
+    }
+    .banner h2 {
+      color: #FFFFFF;
+      text-shadow: 3px 3px 10px #000;
+    }
+    .button {
+      background: #ffcc00;
+      color: #000;
+      padding: 15px 30px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ffcc00;
+      transition: transform 0.2s;
+    }
+    .button:hover {
+      transform: scale(1.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 250px;
+      margin: 10px;
+      border: 2px solid #0ff;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .about {
+      background: rgba(0,0,0,0.5);
+      border: 2px solid #00FFFF;
+      border-radius: 15px;
+      padding: 50px 30px;
+      margin: 50px auto;
+      max-width: 800px;
+    }
+    .about h2 {
+      font-size: 2em;
+      color: #00FFFF;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 5px #000;
+    }
+    .about p, .about ul {
+      font-size: 1.2em;
+      color: #fff;
+      line-height: 1.6;
+    }
+    .about ul {
+      list-style: none;
+      padding: 0;
+    }
+    .about ul li::before {
+      content: "🚀 ";
+      color: #ffcc00;
+    }
+    .about img {
+      width: 200px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00FFFF;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <img src="logo_pango.png" alt="PANGO Logo">
+  <h1>Ride the Pangolin to the Moon</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#game">Game</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="banner">
+  <h2>Ride the Pangolin to the Moon!</h2>
+  <a class="button" href="https://four.meme/token/0x568f838fc31d84f8845424b4dd3eb32643ce4444" target="_blank">Buy Now</a>
+</section>
+
+<section id="about" class="about">
+  <h2>About PANGO</h2>
+  <p><strong>PANGO</strong> is inspired by the <em>pangolin</em>, the <strong>most trafficked animal in the world</strong>, a symbol of resistance and protection.</p>
+  <p>We have transformed this emblematic figure into the <strong>new crypto mascot</strong>, with the potential to become the icon of the <strong>BNB Chain</strong>.</p>
+  <p>Our project goes beyond a meme:</p>
+  <ul>
+    <li>We will launch <strong>exclusive NFT collections</strong>.</li>
+    <li>We will promote <strong>community giveaways</strong>.</li>
+    <li>The most anticipated: the <strong>PANGO Flight game</strong>, combining fun and rewards!</li>
+  </ul>
+
+  <img src="pango_capa_pequena.png" alt="PANGO Flight Cover">
+</section>
+
+<section id="game">
+  <h2>Play PANGO Flight</h2>
+  <p>Fly with Pango through futuristic forests, dodge obstacles, and compete on the global leaderboard!</p>
+  <a class="button" href="#">Play Now</a>
+</section>
+
+<section id="gallery" class="gallery">
+  <h2>Gallery</h2>
+  <img src="meme4.png" alt="PANGO Meme 4">
+  <img src="meme5.png" alt="PANGO Meme 5">
+  <img src="meme6.png" alt="PANGO Meme 6">
+  <img src="meme7.png" alt="PANGO Meme 7">
+</section>
+
+<section id="chart">
+  <h2>Live Chart</h2>
+  <iframe src="https://four.meme/token/0x568f838fc31d84f8845424b4dd3eb32643ce4444" width="100%" height="600" style="border:0;"></iframe>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    <a href="https://twitter.com/pangobnb" target="_blank">
+      <img src="logo_x_pango.png" alt="X Pango" style="width:80px; margin: 0 10px;">
+    </a>
+    <a href="https://t.me/+MyhQQJ_t5PdlY2E5" target="_blank">
+      <img src="logo_telegram_pango.png" alt="Telegram Pango" style="width:80px; margin: 0 10px;">
+    </a>
+  </p>
+</section>
+
+<script>
+  document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+</body>
+</html>
